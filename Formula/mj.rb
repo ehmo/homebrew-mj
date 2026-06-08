@@ -7,20 +7,20 @@ class Mj < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ehmo/mj/releases/download/v0.11.0/mj_0.11.0_darwin_arm64.tar.gz"
-      sha256 "4baa7be598e9c977f1852ccaaf08fbfd6ae437cd801b55b7d5dd1b57a8e7bed2"
+      sha256 "3d66f5e6fe3a031fde1829ab83d68ceffff775c5632013631869fb002da98528"
     else
       url "https://github.com/ehmo/mj/releases/download/v0.11.0/mj_0.11.0_darwin_amd64.tar.gz"
-      sha256 "c5e4928ec2712307c8202a4c63a2caa68029c08f4aedf99027bbc25e3e4295b6"
+      sha256 "2d26bc36b9a1854337e362384b75884019922a49e7abb669006432f116c62784"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/ehmo/mj/releases/download/v0.11.0/mj_0.11.0_linux_arm64.tar.gz"
-      sha256 "cbe528f9fd2055c7df68f0ea203f351f4930ec0f9fe228939c3e630c5817aa12"
+      sha256 "ec597b68c8d61187ffeebe6d37db4882888fa0dde6a2b1eccb3986887aa48c7c"
     else
       url "https://github.com/ehmo/mj/releases/download/v0.11.0/mj_0.11.0_linux_amd64.tar.gz"
-      sha256 "1eb48db89b29c022e06e66b2922602332bb8f936faca3ae34b7731a9416c919d"
+      sha256 "0910365fcbac90e0db436a11f7d272e927623ea881d3c93cd58ebeb4bdea6712"
     end
   end
 
